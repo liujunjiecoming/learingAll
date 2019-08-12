@@ -1,0 +1,2 @@
+[2019-08-12 10:14:16] WARN  org.springframework.core.log.CompositeLog 122 warn - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[2019-08-12 10:14:27] WARN  springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader 86 apply - Trying to infer dataType java.lang.String[]

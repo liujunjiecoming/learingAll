@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEquals" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-01T08:10:22" hostname="liujunjie" time="0.003">
+  <properties/>
+  <testcase name="testString2" classname="TestEquals" time="0.003"/>
+  <system-out><![CDATA[false
+true
+false
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

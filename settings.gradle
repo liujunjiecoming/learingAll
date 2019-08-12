@@ -1,0 +1,8 @@
+rootProject.name = 'learningAll'
+include 'rabbitmq'
+include 'activemq'
+include 'es'
+include 'ebean'
+include 'basic'
+include 'util'
+

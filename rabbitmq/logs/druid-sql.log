@@ -1,0 +1,133 @@
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20000} created. SELECT  id,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,setting_name,setting_type,setting_value  FROM system_setting 
+ 
+ WHERE is_enable = ? AND ( is_deleted = ? )
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20000} created. SELECT  id,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,setting_name,setting_type,setting_value  FROM system_setting 
+ 
+ WHERE is_enable = ? AND ( is_deleted = ? )
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20000} Parameters : [true, false]
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20000} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20000} Parameters : [true, false]
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20000} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20000} executed. 7.938597 millis. SELECT  id,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,setting_name,setting_type,setting_value  FROM system_setting 
+ 
+ WHERE is_enable = ? AND ( is_deleted = ? )
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20000} executed. 8.288955 millis. SELECT  id,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,setting_name,setting_type,setting_value  FROM system_setting 
+ 
+ WHERE is_enable = ? AND ( is_deleted = ? )
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20000} clearParameters. 
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20000} clearParameters. 
+[2019-08-12 10:14:27] DEBUG 137 statementLog - {conn-10005, pstmt-20001} created. SELECT  id,dict_name,dict_value,dict_value_en,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,parent_id,sort  FROM dictionary 
+ 
+ WHERE is_deleted = ? AND is_enable = ?
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20001} created. SELECT  id,dict_name,dict_value,dict_value_en,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,parent_id,sort  FROM dictionary 
+ 
+ WHERE is_deleted = ? AND is_enable = ?
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20001} Parameters : [false, true]
+[2019-08-12 10:14:27] DEBUG 134 statementLog - {conn-10005, pstmt-20001} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20001} Parameters : [false, true]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20001} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20001} executed. 2.780909 millis. SELECT  id,dict_name,dict_value,dict_value_en,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,parent_id,sort  FROM dictionary 
+ 
+ WHERE is_deleted = ? AND is_enable = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20001} executed. 3.197048 millis. SELECT  id,dict_name,dict_value,dict_value_en,gmt_create,gmt_delete,gmt_modified,is_deleted AS deleted,is_enable AS enable,parent_id,sort  FROM dictionary 
+ 
+ WHERE is_deleted = ? AND is_enable = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20001} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20001} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20002} created. SELECT  id,code,context,context_en,gmt_create,gmt_modified,is_deleted AS deleted,is_enable AS enable  FROM agreement 
+ 
+ WHERE is_enable = ? AND is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20002} created. SELECT  id,code,context,context_en,gmt_create,gmt_modified,is_deleted AS deleted,is_enable AS enable  FROM agreement 
+ 
+ WHERE is_enable = ? AND is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20002} Parameters : [true, false]
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20002} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20002} Parameters : [true, false]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20002} Types : [BOOLEAN, BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20002} executed. 5.831548 millis. SELECT  id,code,context,context_en,gmt_create,gmt_modified,is_deleted AS deleted,is_enable AS enable  FROM agreement 
+ 
+ WHERE is_enable = ? AND is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20002} executed. 6.232579 millis. SELECT  id,code,context,context_en,gmt_create,gmt_modified,is_deleted AS deleted,is_enable AS enable  FROM agreement 
+ 
+ WHERE is_enable = ? AND is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20002} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20002} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20003} created. SELECT  
+email,mobile,region_code
+  FROM account_info 
+ 
+ WHERE is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20003} created. SELECT  
+email,mobile,region_code
+  FROM account_info 
+ 
+ WHERE is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20003} Parameters : [false]
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20003} Types : [BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20003} Parameters : [false]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20003} Types : [BOOLEAN]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20003} executed. 5.359006 millis. SELECT  
+email,mobile,region_code
+  FROM account_info 
+ 
+ WHERE is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20003} executed. 5.70602 millis. SELECT  
+email,mobile,region_code
+  FROM account_info 
+ 
+ WHERE is_deleted = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20003} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20003} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20004} created. SELECT  id,account_id,gmt_create,gmt_modified,label,marketplace,profile_state,seller_id,store_state,profile_id  FROM amazon_store_profile
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20004} created. SELECT  id,account_id,gmt_create,gmt_modified,label,marketplace,profile_state,seller_id,store_state,profile_id  FROM amazon_store_profile
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20004} Parameters : []
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20004} Types : []
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20004} Parameters : []
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20004} Types : []
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20004} executed. 2.759044 millis. SELECT  id,account_id,gmt_create,gmt_modified,label,marketplace,profile_state,seller_id,store_state,profile_id  FROM amazon_store_profile
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20004} executed. 3.216031 millis. SELECT  id,account_id,gmt_create,gmt_modified,label,marketplace,profile_state,seller_id,store_state,profile_id  FROM amazon_store_profile
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20004} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20004} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20005} created. SELECT  
+auth_id,time_zone
+  FROM amazon_profile 
+ 
+ WHERE profile_id = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20005} created. SELECT  
+auth_id,time_zone
+  FROM amazon_profile 
+ 
+ WHERE profile_id = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20005} Parameters : [4349637659510203]
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20005} Types : [BIGINT]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20005} Parameters : [4349637659510203]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20005} Types : [BIGINT]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20005} executed. 3.276417 millis. SELECT  
+auth_id,time_zone
+  FROM amazon_profile 
+ 
+ WHERE profile_id = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20005} executed. 3.595102 millis. SELECT  
+auth_id,time_zone
+  FROM amazon_profile 
+ 
+ WHERE profile_id = ?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20005} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20005} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20006} created. SELECT id,access_token,gmt_create,gmt_deleted,gmt_modified,is_deleted AS deleted,is_enable AS enable,refresh_token,seller_id FROM amazon_auth WHERE id=?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20006} created. SELECT id,access_token,gmt_create,gmt_deleted,gmt_modified,is_deleted AS deleted,is_enable AS enable,refresh_token,seller_id FROM amazon_auth WHERE id=?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20006} Parameters : [1135894576741568514]
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20006} Types : [BIGINT]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20006} Parameters : [1135894576741568514]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20006} Types : [BIGINT]
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20006} executed. 3.951945 millis. SELECT id,access_token,gmt_create,gmt_deleted,gmt_modified,is_deleted AS deleted,is_enable AS enable,refresh_token,seller_id FROM amazon_auth WHERE id=?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20006} executed. 4.567965 millis. SELECT id,access_token,gmt_create,gmt_deleted,gmt_modified,is_deleted AS deleted,is_enable AS enable,refresh_token,seller_id FROM amazon_auth WHERE id=?
+[2019-08-12 10:14:28] DEBUG 134 statementLog - {conn-10005, pstmt-20006} clearParameters. 
+[2019-08-12 10:14:28] DEBUG 137 statementLog - {conn-10005, pstmt-20006} clearParameters. 
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20000} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20001} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20002} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20003} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20004} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20005} closed
+[2019-08-12 10:14:29] DEBUG 137 statementLog - {conn-10005, pstmt-20006} closed
